@@ -31,3 +31,39 @@
     transform: rotate(360deg);
   }
 }
+
+.webcam{
+    position:relative;
+    height:100vh;
+}
+.webcam canvas{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    z-index:0;
+}
+.webcam .items{
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right:0;
+    z-index:1;
+}
+
+.webcam img.isActive{
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.items-list {
+  height: 200px;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.items img {
+  width: 350px;
+  flex-shrink: 0;
+  height: 100%;
+}

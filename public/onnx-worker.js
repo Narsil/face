@@ -1,0 +1,1 @@
+../node_modules/onnxjs/dist/onnx-worker.js
