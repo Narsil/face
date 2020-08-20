@@ -1,50 +1,43 @@
 {
-  "name": "face",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@types/classnames": "^2.2.8",
-    "@types/jest": "24.0.13",
-    "@types/node": "12.0.4",
-    "@types/numjs": "^0.14.4",
-    "@types/react": "16.8.19",
-    "@types/react-dom": "16.8.4",
-    "@types/react-webcam": "^1.1.0",
-    "@types/three": "^0.103.2",
-    "classnames": "^2.2.6",
-    "exports-loader": "^0.7.0",
-    "face-api.js": "^0.20.0",
-    "imports-loader": "^0.8.0",
-    "numjs": "^0.16.0",
-    "onnxjs": "^0.1.7",
-    "prettier": "^1.17.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "react-webcam": "^1.1.1",
-    "three": "^0.105.1",
-    "typescript": "3.5.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "homepage": "/assets/face/",
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "face2",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "@types/classnames": "^2.2.10",
+        "@types/jest": "^24.0.0",
+        "@types/node": "^12.0.0",
+        "@types/numjs": "^0.14.5",
+        "@types/react": "^16.9.0",
+        "@types/react-dom": "^16.9.0",
+        "classnames": "^2.2.6",
+        "face-api.js": "^0.22.2",
+        "numjs": "nicolaspanel/numjs#1bd9f59f8eefb78fe33e8eb51964ed03e43187da",
+        "onnxjs": "^0.1.7",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.3",
+        "three": "^0.119.1",
+        "typescript": "~3.7.2"
+    },
+    "homepage": "/assets/face",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [">0.2%", "not dead", "not op_mini all"],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
